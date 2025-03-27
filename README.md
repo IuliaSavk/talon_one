@@ -49,7 +49,7 @@ Cypress provides a graphical interface where you can manually trigger tests and 
 2. A Cypress window will appear. Click on **E2E Testing**.
 3. Select **Chrome** as the browser (default).
 4. Click **Start E2E Testing in Chrome**.
-5. In the list of test files, click on any test (e.g., `logic.cy.js` or `purchaseLaptop.cy.js`).
+5. In the list of test files, click on any test (e.g., `login.cy.js` or `purchaseLaptop.cy.js`).
 6. The test will run in real-time, and you'll see each step executed.
 
 ### 3. Run Tests in Headless Mode (for automation)
