@@ -44,13 +44,18 @@ Cypress provides a graphical interface where you can manually trigger tests and 
 
 1. Run the following command:
    ```sh
-   npx cypress open
+   npx cypress open --e2e
    ```
-2. A Cypress window will appear. Click on **E2E Testing**.
+2. A Cypress window with E2E test will appear. There are no other types of tests implemented in this project
+![Cypress window](images/1.png)
 3. Select **Chrome** as the browser (default).
 4. Click **Start E2E Testing in Chrome**.
-5. In the list of test files, click on any test (e.g., `login.cy.js` or `purchaseLaptop.cy.js`).
-6. The test will run in real-time, and you'll see each step executed.
+5. A page with all available e2e tests for this project will open.
+![All tests window](images/2.png)
+6. Choose any test from the list of Specs available (e.g., `login.cy.js` or `purchaseLaptop.cy.js`) and click on it.
+7. The test will run in real-time, and you'll see each step executed.
+8. That's how it should look like in case of all tests were successful
+![Test Results window](images/3.png)
 
 ### 3. Run Tests in Headless Mode (for automation)
 If you don't need the interactive UI and just want to execute tests in the terminal, use:
