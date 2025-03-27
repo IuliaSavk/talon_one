@@ -46,7 +46,7 @@ Cypress provides a graphical interface where you can manually trigger tests and 
    ```sh
    npx cypress open --e2e
    ```
-2. A Cypress window with E2E test will appear. There are no other types of tests implemented in this project
+2. A Cypress window for running E2E-tests will appear. There are no other types of tests implemented in this project
 ![Cypress window](images/1.png)
 3. Select **Chrome** as the browser (default).
 4. Click **Start E2E Testing in Chrome**.
